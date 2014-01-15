@@ -13,25 +13,20 @@
 		6D08BDB61883445800136661 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D08BDB41883445800136661 /* InfoPlist.strings */; };
 		6D08BDB81883445800136661 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D08BDB71883445800136661 /* main.m */; };
 		6D08BDBC1883445800136661 /* DXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D08BDBB1883445800136661 /* DXAppDelegate.m */; };
-		6D08BDBF1883445800136661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D08BDBD1883445800136661 /* Main.storyboard */; };
 		6D08BDC21883445800136661 /* DXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D08BDC11883445800136661 /* DXViewController.m */; };
 		6D08BDC41883445800136661 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D08BDC31883445800136661 /* Images.xcassets */; };
-		6D08BDCB1883445900136661 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D08BDCA1883445900136661 /* XCTest.framework */; };
-		6D08BDCC1883445900136661 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D08BDAB1883445800136661 /* Foundation.framework */; };
-		6D08BDCD1883445900136661 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D08BDAF1883445800136661 /* UIKit.framework */; };
-		6D08BDD51883445900136661 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D08BDD31883445900136661 /* InfoPlist.strings */; };
-		6D08BDD71883445900136661 /* DynMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D08BDD61883445900136661 /* DynMobileTests.m */; };
+		6D08BDE118834F8F00136661 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D08BDE018834F8F00136661 /* CoreBluetooth.framework */; };
+		6D08BDE618834FB300136661 /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D08BDE418834FB300136661 /* BLE.m */; };
+		6D08BDEA18835F1F00136661 /* DXServoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D08BDE918835F1F00136661 /* DXServoListViewController.m */; };
+		6D08BDEE18835F6200136661 /* DXServoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D08BDEC18835F6200136661 /* DXServoViewController.m */; };
+		6D08BDEF18835F6200136661 /* DXServoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D08BDED18835F6200136661 /* DXServoViewController.xib */; };
+		6D08BDF2188360C400136661 /* DXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D08BDF1188360C400136661 /* DXViewController.xib */; };
+		6D08BDF91883917000136661 /* NSObject+NotificationAfx.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D08BDF81883917000136661 /* NSObject+NotificationAfx.m */; };
+		6D08BDFC1883BFF400136661 /* DynamixelComm.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D08BDFB1883BFF400136661 /* DynamixelComm.m */; };
+		6D08BDFF1883E06700136661 /* ServoInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D08BDFE1883E06700136661 /* ServoInfo.m */; };
+		6D1A193218848450007558B1 /* NSObject+SimpleKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1A193118848450007558B1 /* NSObject+SimpleKVO.m */; };
+		6D1A1937188485A2007558B1 /* NSIndexSet+IndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1A1936188485A2007558B1 /* NSIndexSet+IndexPath.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		6D08BDCE1883445900136661 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6D08BDA01883445800136661 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6D08BDA71883445800136661;
-			remoteInfo = DynMobile;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6D08BDA81883445800136661 /* DynMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,15 +39,30 @@
 		6D08BDB91883445800136661 /* DynMobile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DynMobile-Prefix.pch"; sourceTree = "<group>"; };
 		6D08BDBA1883445800136661 /* DXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DXAppDelegate.h; sourceTree = "<group>"; };
 		6D08BDBB1883445800136661 /* DXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DXAppDelegate.m; sourceTree = "<group>"; };
-		6D08BDBE1883445800136661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D08BDC01883445800136661 /* DXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DXViewController.h; sourceTree = "<group>"; };
 		6D08BDC11883445800136661 /* DXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DXViewController.m; sourceTree = "<group>"; };
-		6D08BDC31883445800136661 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6D08BDC91883445900136661 /* DynMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D08BDCA1883445900136661 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6D08BDD21883445900136661 /* DynMobileTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DynMobileTests-Info.plist"; sourceTree = "<group>"; };
-		6D08BDD41883445900136661 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6D08BDD61883445900136661 /* DynMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynMobileTests.m; sourceTree = "<group>"; };
+		6D08BDC31883445800136661 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DynMobile/Images.xcassets; sourceTree = "<group>"; };
+		6D08BDE018834F8F00136661 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		6D08BDE318834FB300136661 /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLE.h; sourceTree = "<group>"; };
+		6D08BDE418834FB300136661 /* BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLE.m; sourceTree = "<group>"; };
+		6D08BDE518834FB300136661 /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDefines.h; sourceTree = "<group>"; };
+		6D08BDE818835F1F00136661 /* DXServoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXServoListViewController.h; sourceTree = "<group>"; };
+		6D08BDE918835F1F00136661 /* DXServoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXServoListViewController.m; sourceTree = "<group>"; };
+		6D08BDEB18835F6200136661 /* DXServoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXServoViewController.h; sourceTree = "<group>"; };
+		6D08BDEC18835F6200136661 /* DXServoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXServoViewController.m; sourceTree = "<group>"; };
+		6D08BDED18835F6200136661 /* DXServoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DXServoViewController.xib; sourceTree = "<group>"; };
+		6D08BDF1188360C400136661 /* DXViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DXViewController.xib; sourceTree = "<group>"; };
+		6D08BDF71883917000136661 /* NSObject+NotificationAfx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NotificationAfx.h"; sourceTree = "<group>"; };
+		6D08BDF81883917000136661 /* NSObject+NotificationAfx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NotificationAfx.m"; sourceTree = "<group>"; };
+		6D08BDFA1883BFF400136661 /* DynamixelComm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamixelComm.h; sourceTree = "<group>"; };
+		6D08BDFB1883BFF400136661 /* DynamixelComm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamixelComm.m; sourceTree = "<group>"; };
+		6D08BDFD1883E06700136661 /* ServoInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServoInfo.h; sourceTree = "<group>"; };
+		6D08BDFE1883E06700136661 /* ServoInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServoInfo.m; sourceTree = "<group>"; };
+		6D1A193018848450007558B1 /* NSObject+SimpleKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SimpleKVO.h"; sourceTree = "<group>"; };
+		6D1A193118848450007558B1 /* NSObject+SimpleKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SimpleKVO.m"; sourceTree = "<group>"; };
+		6D1A1935188485A2007558B1 /* NSIndexSet+IndexPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexSet+IndexPath.h"; sourceTree = "<group>"; };
+		6D1A1936188485A2007558B1 /* NSIndexSet+IndexPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexSet+IndexPath.m"; sourceTree = "<group>"; };
+		6D1A1938188488F7007558B1 /* AfxMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AfxMacros.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,19 +70,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D08BDE118834F8F00136661 /* CoreBluetooth.framework in Frameworks */,
 				6D08BDAE1883445800136661 /* CoreGraphics.framework in Frameworks */,
 				6D08BDB01883445800136661 /* UIKit.framework in Frameworks */,
 				6D08BDAC1883445800136661 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6D08BDC61883445900136661 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6D08BDCB1883445900136661 /* XCTest.framework in Frameworks */,
-				6D08BDCD1883445900136661 /* UIKit.framework in Frameworks */,
-				6D08BDCC1883445900136661 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,8 +83,11 @@
 		6D08BD9F1883445800136661 = {
 			isa = PBXGroup;
 			children = (
+				6D08BDC31883445800136661 /* Images.xcassets */,
+				6D1A192F18848450007558B1 /* KVO */,
+				6D08BDF61883917000136661 /* Notification */,
 				6D08BDB11883445800136661 /* DynMobile */,
-				6D08BDD01883445900136661 /* DynMobileTests */,
+				6D08BDB21883445800136661 /* Supporting Files */,
 				6D08BDAA1883445800136661 /* Frameworks */,
 				6D08BDA91883445800136661 /* Products */,
 			);
@@ -93,7 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				6D08BDA81883445800136661 /* DynMobile.app */,
-				6D08BDC91883445900136661 /* DynMobileTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,10 +104,11 @@
 		6D08BDAA1883445800136661 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6D08BDE218834FB300136661 /* BLE */,
+				6D08BDE018834F8F00136661 /* CoreBluetooth.framework */,
 				6D08BDAB1883445800136661 /* Foundation.framework */,
 				6D08BDAD1883445800136661 /* CoreGraphics.framework */,
 				6D08BDAF1883445800136661 /* UIKit.framework */,
-				6D08BDCA1883445900136661 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,11 +118,18 @@
 			children = (
 				6D08BDBA1883445800136661 /* DXAppDelegate.h */,
 				6D08BDBB1883445800136661 /* DXAppDelegate.m */,
-				6D08BDBD1883445800136661 /* Main.storyboard */,
 				6D08BDC01883445800136661 /* DXViewController.h */,
 				6D08BDC11883445800136661 /* DXViewController.m */,
-				6D08BDC31883445800136661 /* Images.xcassets */,
-				6D08BDB21883445800136661 /* Supporting Files */,
+				6D08BDF1188360C400136661 /* DXViewController.xib */,
+				6D08BDE818835F1F00136661 /* DXServoListViewController.h */,
+				6D08BDE918835F1F00136661 /* DXServoListViewController.m */,
+				6D08BDEB18835F6200136661 /* DXServoViewController.h */,
+				6D08BDEC18835F6200136661 /* DXServoViewController.m */,
+				6D08BDED18835F6200136661 /* DXServoViewController.xib */,
+				6D08BDFA1883BFF400136661 /* DynamixelComm.h */,
+				6D08BDFB1883BFF400136661 /* DynamixelComm.m */,
+				6D08BDFD1883E06700136661 /* ServoInfo.h */,
+				6D08BDFE1883E06700136661 /* ServoInfo.m */,
 			);
 			path = DynMobile;
 			sourceTree = "<group>";
@@ -126,30 +137,45 @@
 		6D08BDB21883445800136661 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6D1A1938188488F7007558B1 /* AfxMacros.h */,
 				6D08BDB31883445800136661 /* DynMobile-Info.plist */,
 				6D08BDB41883445800136661 /* InfoPlist.strings */,
 				6D08BDB71883445800136661 /* main.m */,
 				6D08BDB91883445800136661 /* DynMobile-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = DynMobile;
 			sourceTree = "<group>";
 		};
-		6D08BDD01883445900136661 /* DynMobileTests */ = {
+		6D08BDE218834FB300136661 /* BLE */ = {
 			isa = PBXGroup;
 			children = (
-				6D08BDD61883445900136661 /* DynMobileTests.m */,
-				6D08BDD11883445900136661 /* Supporting Files */,
+				6D08BDE318834FB300136661 /* BLE.h */,
+				6D08BDE418834FB300136661 /* BLE.m */,
+				6D08BDE518834FB300136661 /* BLEDefines.h */,
 			);
-			path = DynMobileTests;
+			name = BLE;
+			path = RedBearLab/Examples/Chat/BLE;
 			sourceTree = "<group>";
 		};
-		6D08BDD11883445900136661 /* Supporting Files */ = {
+		6D08BDF61883917000136661 /* Notification */ = {
 			isa = PBXGroup;
 			children = (
-				6D08BDD21883445900136661 /* DynMobileTests-Info.plist */,
-				6D08BDD31883445900136661 /* InfoPlist.strings */,
+				6D08BDF71883917000136661 /* NSObject+NotificationAfx.h */,
+				6D08BDF81883917000136661 /* NSObject+NotificationAfx.m */,
 			);
-			name = "Supporting Files";
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		6D1A192F18848450007558B1 /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				6D1A193018848450007558B1 /* NSObject+SimpleKVO.h */,
+				6D1A193118848450007558B1 /* NSObject+SimpleKVO.m */,
+				6D1A1935188485A2007558B1 /* NSIndexSet+IndexPath.h */,
+				6D1A1936188485A2007558B1 /* NSIndexSet+IndexPath.m */,
+			);
+			path = KVO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,24 +198,6 @@
 			productReference = 6D08BDA81883445800136661 /* DynMobile.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6D08BDC81883445900136661 /* DynMobileTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6D08BDDD1883445900136661 /* Build configuration list for PBXNativeTarget "DynMobileTests" */;
-			buildPhases = (
-				6D08BDC51883445900136661 /* Sources */,
-				6D08BDC61883445900136661 /* Frameworks */,
-				6D08BDC71883445900136661 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6D08BDCF1883445900136661 /* PBXTargetDependency */,
-			);
-			name = DynMobileTests;
-			productName = DynMobileTests;
-			productReference = 6D08BDC91883445900136661 /* DynMobileTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,11 +207,6 @@
 				CLASSPREFIX = DX;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Slavik;
-				TargetAttributes = {
-					6D08BDC81883445900136661 = {
-						TestTargetID = 6D08BDA71883445800136661;
-					};
-				};
 			};
 			buildConfigurationList = 6D08BDA31883445800136661 /* Build configuration list for PBXProject "DynMobile" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -219,7 +222,6 @@
 			projectRoot = "";
 			targets = (
 				6D08BDA71883445800136661 /* DynMobile */,
-				6D08BDC81883445900136661 /* DynMobileTests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,17 +231,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D08BDF2188360C400136661 /* DXViewController.xib in Resources */,
+				6D08BDEF18835F6200136661 /* DXServoViewController.xib in Resources */,
 				6D08BDC41883445800136661 /* Images.xcassets in Resources */,
 				6D08BDB61883445800136661 /* InfoPlist.strings in Resources */,
-				6D08BDBF1883445800136661 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6D08BDC71883445900136661 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6D08BDD51883445900136661 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,48 +248,24 @@
 				6D08BDBC1883445800136661 /* DXAppDelegate.m in Sources */,
 				6D08BDC21883445800136661 /* DXViewController.m in Sources */,
 				6D08BDB81883445800136661 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6D08BDC51883445900136661 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6D08BDD71883445900136661 /* DynMobileTests.m in Sources */,
+				6D08BDFF1883E06700136661 /* ServoInfo.m in Sources */,
+				6D1A1937188485A2007558B1 /* NSIndexSet+IndexPath.m in Sources */,
+				6D08BDE618834FB300136661 /* BLE.m in Sources */,
+				6D08BDEE18835F6200136661 /* DXServoViewController.m in Sources */,
+				6D08BDFC1883BFF400136661 /* DynamixelComm.m in Sources */,
+				6D08BDF91883917000136661 /* NSObject+NotificationAfx.m in Sources */,
+				6D1A193218848450007558B1 /* NSObject+SimpleKVO.m in Sources */,
+				6D08BDEA18835F1F00136661 /* DXServoListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6D08BDCF1883445900136661 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6D08BDA71883445800136661 /* DynMobile */;
-			targetProxy = 6D08BDCE1883445900136661 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6D08BDB41883445800136661 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6D08BDB51883445800136661 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6D08BDBD1883445800136661 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6D08BDBE1883445800136661 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6D08BDD31883445900136661 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6D08BDD41883445900136661 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -402,48 +373,6 @@
 			};
 			name = Release;
 		};
-		6D08BDDE1883445900136661 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DynMobile.app/DynMobile";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DynMobile/DynMobile-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "DynMobileTests/DynMobileTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		6D08BDDF1883445900136661 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DynMobile.app/DynMobile";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DynMobile/DynMobile-Prefix.pch";
-				INFOPLIST_FILE = "DynMobileTests/DynMobileTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -463,14 +392,7 @@
 				6D08BDDC1883445900136661 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		6D08BDDD1883445900136661 /* Build configuration list for PBXNativeTarget "DynMobileTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6D08BDDE1883445900136661 /* Debug */,
-				6D08BDDF1883445900136661 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

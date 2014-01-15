@@ -13,4 +13,9 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import "DXAppDelegate.h"
+    #import "NSObject+NotificationAfx.h"
+    #import "NSObject+SimpleKVO.h"
+    #import "NSIndexSet+IndexPath.h"
+    #import "AfxMacros.h"
 #endif

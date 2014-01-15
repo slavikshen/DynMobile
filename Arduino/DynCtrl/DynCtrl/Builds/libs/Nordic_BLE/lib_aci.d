@@ -1,0 +1,22 @@
+Builds/libs/Nordic_BLE/lib_aci.o:  \
+ /Applications/Arduino.app/Contents/Resources/Java/libraries/Nordic_BLE/lib_aci.cpp \
+  /Applications/Arduino.app/Contents/Resources/Java/libraries/Nordic_BLE/hal_platform.h \
+  /Applications/Arduino.app/Contents/Resources/Java/hardware/arduino/cores/arduino/Arduino.h \
+  /Applications/Arduino.app/Contents/Resources/Java/hardware/arduino/cores/arduino/binary.h \
+  /Applications/Arduino.app/Contents/Resources/Java/hardware/arduino/cores/arduino/WCharacter.h \
+  /Applications/Arduino.app/Contents/Resources/Java/hardware/arduino/cores/arduino/WString.h \
+  /Applications/Arduino.app/Contents/Resources/Java/hardware/arduino/cores/arduino/HardwareSerial.h \
+  /Applications/Arduino.app/Contents/Resources/Java/hardware/arduino/cores/arduino/Stream.h \
+  /Applications/Arduino.app/Contents/Resources/Java/hardware/arduino/cores/arduino/Print.h \
+  /Applications/Arduino.app/Contents/Resources/Java/hardware/arduino/cores/arduino/Printable.h \
+  /Applications/Arduino.app/Contents/Resources/Java/hardware/arduino/cores/arduino/new.h \
+  /Applications/Arduino.app/Contents/Resources/Java/hardware/arduino/variants/standard/pins_arduino.h \
+  /Applications/Arduino.app/Contents/Resources/Java/libraries/Nordic_BLE/aci.h \
+  /Applications/Arduino.app/Contents/Resources/Java/libraries/Nordic_BLE/aci_cmds.h \
+  /Applications/Arduino.app/Contents/Resources/Java/libraries/Nordic_BLE/aci_evts.h \
+  /Applications/Arduino.app/Contents/Resources/Java/libraries/Nordic_BLE/aci_protocol_defines.h \
+  /Applications/Arduino.app/Contents/Resources/Java/libraries/Nordic_BLE/acilib_defs.h \
+  /Applications/Arduino.app/Contents/Resources/Java/libraries/Nordic_BLE/acilib_if.h \
+  /Applications/Arduino.app/Contents/Resources/Java/libraries/Nordic_BLE/hal_aci_tl.h \
+  /Applications/Arduino.app/Contents/Resources/Java/libraries/Nordic_BLE/boards.h \
+  /Applications/Arduino.app/Contents/Resources/Java/libraries/Nordic_BLE/lib_aci.h

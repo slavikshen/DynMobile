@@ -10,4 +10,9 @@
 
 @interface DXViewController : UIViewController
 
+@property(nonatomic,strong) IBOutlet UIActivityIndicatorView* spinner;
+@property(nonatomic,strong) IBOutlet UIButton* connectButton;
+
+- (IBAction)connect:(id)sender;
+
 @end
