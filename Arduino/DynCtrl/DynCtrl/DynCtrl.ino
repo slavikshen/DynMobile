@@ -57,8 +57,8 @@ uint8_t myLED = 7;
 
 #include <DynamixelSerial.h>
 
-
-#define DEBUG_COM 0
+// comment the definition when testing with servos
+// #define DEBUG_COM 1
 
 
 #define BUF_LEN 32
@@ -314,7 +314,7 @@ void setup() {
     
 #else 
 
-//    Dynamixel.begin(1000000,2);  // Inicialize the servo at 1Mbps and Pin Control 2
+    Dynamixel.begin(1000000,2);  // Inicialize the servo at 1Mbps and Pin Control 2
     delay(1000);
     scanServos();
     
@@ -347,30 +347,6 @@ void loop() {
     }
     
 #endif
-    
-//    while ( ble_available() ) {
-//        
-//        Serial.write(ble_read());
-//    }
-//    
-//    while( Serial.available() ) {
-//        
-//        digitalWrite(6,HIGH);
-//        
-//        while ( Serial.available() && len < BUF_LEN )
-//        {
-//            unsigned char c = Serial.read();
-//            buf[len++] = c;
-//        }
-//        
-//        for (int i = 0; i < len; i++)
-//            ble_write(buf[i]);
-//        len = 0;
-//        
-//        delay(1000);
-//        digitalWrite(6,LOW);
-//        delay(1000);
-//    }
     
     ble_do_events();
     
